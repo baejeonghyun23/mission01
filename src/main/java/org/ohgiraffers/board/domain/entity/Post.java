@@ -1,4 +1,4 @@
-package org.ohgiraffers.board.domain.entity;
+9package org.ohgiraffers.board.domain.entity;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -8,7 +8,7 @@ import lombok.*;
 /** Entity
  *  실제 세계의 객체나 개념을 소프트웨어 내에서 모델링 한 것으로, 데이터 베이스의 테이블에 해당하는 클래스
  *
- *  주의
+ *  주의!!
  *  데이터의 일관성을 위해 setter 사용을 지양해야 한다.
  *  setter를 사용한다면, 어디에서든 Entity를 수정해버릴 수 있기 때문에 일관성을 유지하기 어렵다.
  */
